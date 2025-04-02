@@ -23,6 +23,12 @@
   <ItemGroup>
     <Compile Include="ClinicManagementSystem.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Database\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
