@@ -21,13 +21,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\Database\db.py" />
+    <Compile Include="app\init.py" />
+    <Compile Include="app\Utils\config.py" />
     <Compile Include="ClinicManagementSystem.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Database\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Utils\" />
+    <Folder Include="app\Models\" />
+    <Folder Include="app\Database\" />
+    <Folder Include="app\Controllers\" />
+    <Folder Include="app\" />
+    <Folder Include="app\Utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
