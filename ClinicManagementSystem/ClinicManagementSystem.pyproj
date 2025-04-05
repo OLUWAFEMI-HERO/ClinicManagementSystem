@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="app\Database\db.py" />
     <Compile Include="app\init.py" />
+    <Compile Include="app\Models\patient.py" />
     <Compile Include="app\Utils\config.py" />
     <Compile Include="ClinicManagementSystem.py" />
   </ItemGroup>
