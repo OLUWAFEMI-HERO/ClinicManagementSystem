@@ -26,6 +26,7 @@
     <Compile Include="app\Models\appointment.py" />
     <Compile Include="app\Models\doctor.py" />
     <Compile Include="app\Models\patient.py" />
+    <Compile Include="app\Models\prescription.py" />
     <Compile Include="app\Utils\config.py" />
     <Compile Include="ClinicManagementSystem.py" />
   </ItemGroup>
