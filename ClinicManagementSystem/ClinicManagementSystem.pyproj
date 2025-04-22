@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\controllers\doctor_controller.py" />
     <Compile Include="app\controllers\patient_controller.py" />
     <Compile Include="app\Database\db.py" />
     <Compile Include="app\init.py" />
