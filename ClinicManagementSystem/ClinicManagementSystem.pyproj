@@ -32,6 +32,7 @@
     <Compile Include="app\Models\doctor.py" />
     <Compile Include="app\Models\patient.py" />
     <Compile Include="app\Models\prescription.py" />
+    <Compile Include="app\routes\users.py" />
     <Compile Include="app\Utils\config.py" />
     <Compile Include="ClinicManagementSystem.py" />
   </ItemGroup>
@@ -40,6 +41,7 @@
     <Folder Include="app\Database\" />
     <Folder Include="app\controllers\" />
     <Folder Include="app\" />
+    <Folder Include="app\routes\" />
     <Folder Include="app\Utils\" />
   </ItemGroup>
   <ItemGroup>
