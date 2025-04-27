@@ -27,6 +27,7 @@
     <Compile Include="app\controllers\patient_controller.py" />
     <Compile Include="app\Database\db.py" />
     <Compile Include="app\init.py" />
+    <Compile Include="app\main.py" />
     <Compile Include="app\Models\appointment.py" />
     <Compile Include="app\Models\billing.py" />
     <Compile Include="app\Models\doctor.py" />
