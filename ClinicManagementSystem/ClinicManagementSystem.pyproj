@@ -30,6 +30,7 @@
     <Compile Include="app\main.py" />
     <Compile Include="app\Models\appointment.py" />
     <Compile Include="app\Models\billing.py" />
+    <Compile Include="app\Models\clinical_record.py" />
     <Compile Include="app\Models\doctor.py" />
     <Compile Include="app\Models\patient.py" />
     <Compile Include="app\Models\prescription.py" />
