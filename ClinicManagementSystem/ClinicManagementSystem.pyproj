@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app\auth.py" />
+    <Compile Include="app\base.py" />
     <Compile Include="app\controllers\appointment_controller.py" />
     <Compile Include="app\controllers\doctor_controller.py" />
     <Compile Include="app\controllers\patient_controller.py" />
