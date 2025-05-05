@@ -51,6 +51,7 @@
     <Folder Include="app\Utils\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Readme.md" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
