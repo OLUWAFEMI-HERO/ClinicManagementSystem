@@ -37,6 +37,7 @@
     <Compile Include="app\Models\prescription_item.py" />
     <Compile Include="app\Models\test_order.py" />
     <Compile Include="app\routes\appointments.py" />
+    <Compile Include="app\routes\clinical.py" />
     <Compile Include="app\routes\users.py" />
     <Compile Include="app\Utils\config.py" />
     <Compile Include="ClinicManagementSystem.py" />
