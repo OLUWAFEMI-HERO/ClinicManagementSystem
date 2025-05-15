@@ -42,6 +42,7 @@
     <Compile Include="app\routes\clinical.py" />
     <Compile Include="app\routes\users.py" />
     <Compile Include="app\Utils\config.py" />
+    <Compile Include="app\Utils\seed.py" />
     <Compile Include="ClinicManagementSystem.py" />
   </ItemGroup>
   <ItemGroup>
