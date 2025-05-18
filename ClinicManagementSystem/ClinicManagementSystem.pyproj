@@ -39,6 +39,7 @@
     <Compile Include="app\Models\test_order.py" />
     <Compile Include="app\Models\user.py" />
     <Compile Include="app\routes\appointments.py" />
+    <Compile Include="app\routes\billing.py" />
     <Compile Include="app\routes\clinical.py" />
     <Compile Include="app\routes\patients.py" />
     <Compile Include="app\routes\users.py" />
